@@ -1,0 +1,19 @@
+blockquote{
+    display: block;
+    border-left: 8px solid #d0e5f2;
+    padding: 5px 10px;
+    margin: 10px 0;
+    line-height: 1.4;
+    font-size: 100%;
+    background-color: #f1f1f1;
+}
+pre{
+    overflow-x: hidden;
+}
+code{
+    display: block;
+    width: 100%;
+    color: #f8f8f2;
+    background-color: #384548 !important;
+    padding: 3px 5px;
+}

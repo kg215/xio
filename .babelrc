@@ -1,0 +1,19 @@
+{
+    "presets": [
+        ["@babel/preset-env", {
+            "useBuiltIns":"usage"
+        }],
+        "@babel/preset-react",
+        "@babel/preset-typescript"
+    ],
+    "plugins": [
+        ["transform-jsx-url", {
+          "attrs": ["img:src", "img:data-src", "link:href"]
+        }],
+        ["import", {
+            "libraryName": "antd",
+            "libraryDirectory": "es",
+            "style": "css"
+          }]
+    ]
+}
